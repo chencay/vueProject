@@ -148,7 +148,7 @@ import login from './dialog/login';
             }
           }
           Vue.swal.close();
-        })
+        }) 
         
       },
       register() {
