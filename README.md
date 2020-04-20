@@ -1,21 +1,17 @@
-# vuefirst
+# springboot+vue前后端分离的基础web框架(vue端)
 
-> the first test vue project
+> the first vue project
 
-## Build Setup
+## vue端
 
-``` bash
-# install dependencies
-npm install
+### 1.vue框架
+>store、router、component、api、request以及util
 
-# serve with hot reload at localhost:8080
-npm run dev
+### 2.element.ui
 
-# build for production with minification
-npm run build
+>使用[饿了么](https://element.eleme.cn/#/zh-CN/component/installation)系列的组件
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+### 3.页面
+>实现了首页界面，登录、注册和登出等弹窗界面(登录系列操作使用token与springboot端交互)
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+仅可用于最基础的vue开发学习
